@@ -63,8 +63,6 @@ The app guides users through selecting a loan type, entering amount, duration, a
 ## 🗂️ Project Structure
 
 - index.html: Markup for inputs, results, and visual indicator.
-- styles.css or tailwind.css: Theme and layout; Tailwind or Bootstrap classes.
-- script.js: Rate mapping, annuity computation, validation, DOM updates, localStorage.
 
 ***
 
