@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Money, Intelligently Managed</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary-orange': '#E78852',
+                        'secondary-orange': '#BE7346',
+                        'background': '#222222',
+                        'secondary-background': '#121212',
+                        'border': '#6A6A6A',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-background text-white font-sans min-h-screen">
+    
+    <nav class="container mx-auto px-4 md:px-6 py-4 md:py-6">
+        <div class="flex items-center justify-between border border-border rounded-full px-4 md:px-8 py-2 md:py-3">
+            <div class="hidden md:flex items-center space-x-6 text-sm">
+                <a href="#" class="text-white hover:text-primary-orange transition-colors">Home</a>
+                <span class="text-border">|</span>
+                <a href="#" class="text-gray-400 hover:text-primary-orange transition-colors">Individuals</a>
+                <span class="text-border">|</span>
+                <a href="#" class="text-gray-400 hover:text-primary-orange transition-colors">Professionals</a>
+                <span class="text-border">|</span>
+                <a href="#" class="text-gray-400 hover:text-primary-orange transition-colors">MDM</a>
+                <span class="text-border">|</span>
+                <a href="#" class="text-gray-400 hover:text-primary-orange transition-colors">Businesses</a>
+            </div>
+            
+            <div class="md:hidden text-primary-orange font-semibold text-lg">My BANK</div>
+            
+            <button class="bg-primary-orange text-white px-4 md:px-6 py-2 rounded-full text-xs md:text-sm font-medium hover:bg-secondary-orange transition-colors">
+                Get Started
+            </button>
+        </div>
+    </nav>
+
+    <div class="container mx-auto mt-6 md:mt-8 px-4">
+        <div class="flex justify-center flex-wrap gap-3 md:gap-4">
+            <div class="w-12 md:w-16">
+                <img src="./icons/Visa.png" alt="Visa">
+            </div>
+            <div class="w-12 md:w-16">
+                <img src="./icons/JCB.png" alt="JCB">
+            </div>
+            <div class="w-12 md:w-16">
+                <img src="./icons/American Express.png" alt="Amex">
+            </div>
+            <div class="w-12 md:w-16">
+                <img src="./icons/Discover Card.png" alt="Discover">
+            </div>
+            <div class="w-12 md:w-16">
+                <img src="./icons/Wire Card.png" alt="Wire">
+            </div>
+            <div class="w-12 md:w-16">
+                <img src="./icons/Diners Club.png" alt="Diners">
+            </div>
+            <div class="w-12 md:w-16">
+                <img src="./icons/PayPal.png" alt="PayPal">
+            </div>
+        </div>
+    </div>
+
+    <section class="container mx-auto mt-6 md:mt-8 text-center px-4">
+        <h1 class="text-3xl md:text-5xl lg:text-6xl font-light mb-4 md:mb-6">
+            Your <span class="text-primary-orange">money</span>, intelligently managed
+        </h1>
+        
+        <p class="text-gray-400 text-sm md:text-lg max-w-3xl mx-auto mb-6 md:mb-8">
+            From <span class="text-primary-orange">24/7 virtual assistance</span> to real-time fraud protection, 
+            experience faster safe banking with proactive alerts, seamless onboarding, and 
+            personalized insights designed around your goals.
+        </p>
+
+        <div class="flex flex-wrap justify-center items-center gap-6 md:gap-16 mb-8 md:mb-12">
+            <div class="text-center">
+                <div class="text-xs md:text-sm text-gray-400">Clients</div>
+                <div class="text-primary-orange font-light text-xl md:text-2xl">2M+</div>
+            </div>
+            <div class="text-center">
+                <div class="text-xs md:text-sm text-gray-400">Retention</div>
+                <div class="text-primary-orange font-light text-xl md:text-2xl">82%</div>
+            </div>
+            <div class="hidden md:block text-gray-500 text-4xl">↓</div>
+            <div class="text-center">
+                <div class="text-xs md:text-sm text-gray-400">Mobile</div>
+                <div class="text-primary-orange font-light text-xl md:text-2xl">94%</div>
+            </div>
+            <div class="text-center">
+                <div class="text-xs md:text-sm text-gray-400">Support</div>
+                <div class="text-primary-orange font-light text-xl md:text-2xl">24/7</div>
+            </div>
+        </div>
+
+        <div class="inline-flex items-center border border-border rounded-full p-2">
+            <button class="bg-primary-orange text-white px-4 md:px-5 py-2 md:py-3 rounded-full text-sm font-medium hover:bg-secondary-orange transition-colors flex items-center">
+                <img src="./icons/Verified account.png" class="w-5 md:w-6 mr-2 md:mr-3"> Open An Account
+            </button>
+            <button class="text-white px-3 md:px-4 py-2 md:py-3 rounded-full hover:bg-background transition-colors">
+                →
+            </button>
+        </div>
+    </section>
+
+    <section class="container mx-auto px-4 md:px-10 lg:px-20 mt-12 md:mt-20">
+        <div class="border border-border rounded-3xl p-4 md:p-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
+                <div class="text-center">
+                    <img src="./icons/calculator-8-512.png" class="text-primary-orange text-5xl mb-3 md:mb-4 w-20 md:w-32 mx-auto">
+                    <h3 class="text-sm md:text-lg font-medium text-center">Simulate A<br>Loan</h3>
+                </div>
+                
+                <div class="text-center">
+                    <img src="./icons/google-place-optimization-512.png" class="text-primary-orange text-5xl mb-3 md:mb-4 w-20 md:w-32 mx-auto">
+                    <h3 class="text-sm md:text-lg font-medium">Closest<br>Agency</h3>
+                </div>
+                
+                <div class="text-center">
+                    <img src="./icons/light-bulb-6-512.png" class="text-primary-orange text-5xl mb-3 md:mb-4 w-20 md:w-32 mx-auto">
+                    <h3 class="text-sm md:text-lg font-medium">Our<br>Partners</h3>
+                </div>
+                
+                <div class="text-center">
+                    <img src="./icons/percentage-2-512.png" class="text-primary-orange text-5xl mb-3 md:mb-4 w-20 md:w-32 mx-auto">
+                    <h3 class="text-sm md:text-lg font-medium">How it<br>Works?</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mx-auto mt-12 md:mt-20 px-4 md:px-10 lg:px-20">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8">
+            <div class="relative rounded-2xl lg:rounded-[65px] overflow-hidden shadow-2xl aspect-square">
+                <img src="./images/shoping.png" 
+                     alt="Professional woman shopping" 
+                     class="w-full h-full object-cover">
+                <div class="absolute bottom-0 left-0 right-0 h-16 md:h-24 lg:h-[123px] bg-secondary-background bg-opacity-75 rounded-b-2xl lg:rounded-b-[65px] flex items-center justify-center px-3 md:px-6">
+                    <p class="text-[#BDBDBD] text-xs md:text-xl lg:text-2xl font-medium text-center leading-relaxed">
+                        With My BANK, I pay for my<br>purchases easily and securely.
+                    </p>
+                </div>
+            </div>
+
+            <div class="space-y-6 md:space-y-8">
+                <div class="relative rounded-2xl lg:rounded-[65px] overflow-hidden shadow-2xl aspect-[2/1]">
+                    <img src="./images/gaming.png" 
+                         alt="Gaming with BANK card" 
+                         class="w-full h-full object-cover">
+                    <div class="absolute bottom-0 left-0 right-0 h-16 md:h-24 lg:h-[123px] bg-secondary-background bg-opacity-75 rounded-b-2xl lg:rounded-b-[65px] flex items-center justify-center px-3 md:px-6">
+                        <p class="text-[#BDBDBD] text-xs md:text-xl lg:text-2xl font-medium text-center leading-relaxed">
+                            I play my favorite video games with my BANK card.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8">
+                    <div class="relative rounded-2xl lg:rounded-[65px] overflow-hidden shadow-2xl" style="aspect-ratio: 400/376;">
+                        <img src="./images/food.png" 
+                             alt="Enjoying food" 
+                             class="w-full h-full object-cover">
+                        <div class="absolute bottom-0 left-0 right-0 h-16 md:h-24 lg:h-[123px] bg-secondary-background bg-opacity-75 rounded-b-2xl lg:rounded-b-[65px] flex items-center justify-center px-2 md:px-4">
+                            <p class="text-[#BDBDBD] text-xs md:text-lg lg:text-xl font-medium text-center leading-relaxed">
+                                I treat myself thanks to my BANK account.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="relative rounded-2xl lg:rounded-[65px] overflow-hidden shadow-2xl" style="aspect-ratio: 400/376;">
+                        <img src="./images/popcorn.png" 
+                             alt="Movie entertainment" 
+                             class="w-full h-full object-cover">
+                        <div class="absolute bottom-0 left-0 right-0 h-16 md:h-24 lg:h-[123px] bg-secondary-background bg-opacity-75 rounded-b-2xl lg:rounded-b-[65px] flex items-center justify-center px-2 md:px-4">
+                            <p class="text-[#BDBDBD] text-xs md:text-lg lg:text-xl font-medium text-center leading-relaxed">
+                                I entertain myself whenever I want and wherever I want!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mx-auto px-4 md:px-6 py-12 md:py-20">
+        <div class="max-w-4xl w-full mx-auto bg-background rounded-2xl md:rounded-3xl border-2 border-border p-4 md:p-8">
+            
+            <h1 class="text-white text-2xl md:text-4xl font-light text-center mb-6 md:mb-8">Consumer loan simulator</h1>
+
+            <div class="flex justify-between items-center mb-8 md:mb-12 relative">
+                <div class="absolute w-full h-0.5 bg-border top-1/2 left-0"></div>
+                
+                <div id="progress" class="absolute h-0.5 bg-primary-orange top-1/2 left-0 transition-all duration-300 w-0"></div>
+                
+                <div class="w-10 h-10 md:w-12 md:h-12 rounded-full bg-primary-orange text-white flex items-center justify-center text-base md:text-lg font-semibold z-10 relative">1</div>
+                <div id="circle2" class="w-10 h-10 md:w-12 md:h-12 rounded-full bg-border text-white flex items-center justify-center text-base md:text-lg font-semibold z-10 relative transition-colors duration-300">2</div>
+                <div id="circle3" class="w-10 h-10 md:w-12 md:h-12 rounded-full bg-border text-white flex items-center justify-center text-base md:text-lg font-semibold z-10 relative transition-colors duration-300">3</div>
+                <div id="circle4" class="w-10 h-10 md:w-12 md:h-12 rounded-full bg-border text-white flex items-center justify-center text-base md:text-lg font-semibold z-10 relative transition-colors duration-300">4</div>
+            </div>
+
+            <div id="step1" class="step-content">
+                <p class="text-gray-300 text-center text-base md:text-lg mb-6 md:mb-10">Choose the type of loan</p>
+                
+                <div class="grid grid-cols-3 md:grid-cols-5 gap-3 md:gap-6 mb-6 md:mb-10">
+                    <button onclick="selectLoan('House')" class="loan-btn text-primary-orange flex flex-col items-center gap-2 md:gap-3 hover:scale-110 transition-transform duration-200 p-2 rounded-lg">
+                        <div class="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center bg-secondary-background rounded-lg">
+                            <img src="./icons/House.png" alt="House loan" class="w-12 h-12 md:w-16 md:h-16">
+                        </div>
+                        <span class="text-xs md:text-sm text-center">House</span>
+                    </button>
+                    
+                    <button onclick="selectLoan('Apartment')" class="loan-btn text-primary-orange flex flex-col items-center gap-2 md:gap-3 hover:scale-110 transition-transform duration-200 p-2 rounded-lg">
+                        <div class="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center bg-secondary-background rounded-lg">
+                            <img src="./icons/Apartment.png" alt="Apartment loan" class="w-12 h-12 md:w-16 md:h-16">
+                        </div>
+                        <span class="text-xs md:text-sm text-center">Apartment</span>
+                    </button>
+                    
+                    <button onclick="selectLoan('Land')" class="loan-btn text-primary-orange flex flex-col items-center gap-2 md:gap-3 hover:scale-110 transition-transform duration-200 p-2 rounded-lg">
+                        <div class="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center bg-secondary-background rounded-lg">
+                            <img src="./icons/Field.png" alt="Land loan" class="w-12 h-12 md:w-16 md:h-16">
+                        </div>
+                        <span class="text-xs md:text-sm text-center">Land</span>
+                    </button>
+                    
+                    <button onclick="selectLoan('Business')" class="loan-btn text-primary-orange flex flex-col items-center gap-2 md:gap-3 hover:scale-110 transition-transform duration-200 p-2 rounded-lg">
+                        <div class="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center bg-secondary-background rounded-lg">
+                            <img src="./icons/Business.png" alt="Business loan" class="w-12 h-12 md:w-16 md:h-16">
+                        </div>
+                        <span class="text-xs md:text-sm text-center">Business</span>
+                    </button>
+                    
+                    <button onclick="selectLoan('Personal')" class="loan-btn text-primary-orange flex flex-col items-center gap-2 md:gap-3 hover:scale-110 transition-transform duration-200 p-2 rounded-lg col-span-3 md:col-span-1">
+                        <div class="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center bg-secondary-background rounded-lg">
+                            <img src="./icons/Person.png" alt="Personal loan" class="w-12 h-12 md:w-16 md:h-16">
+                        </div>
+                        <span class="text-xs md:text-sm text-center">Personal</span>
+                    </button>
+                </div>
+                
+                <div class="text-center">
+                    <button onclick="goToStep(2)" class="bg-primary-orange px-8 md:px-12 py-2.5 md:py-3 rounded-full text-white text-sm md:text-base font-medium hover:bg-secondary-orange transition-colors duration-200">
+                        Simulate My Loan
+                    </button>
+                </div>
+            </div>
+
+            <div id="step2" class="step-content hidden">
+                <p class="text-gray-300 text-center text-base md:text-lg mb-8 md:mb-12">Enter the desired amount and duration</p>
+                
+                <div class="space-y-8 md:space-y-10 mb-8 md:mb-12">
+                    <div class="flex flex-col md:flex-row items-start md:items-center gap-3 md:gap-6">
+                        <input type="range" 
+                               id="amount" 
+                               min="1000" 
+                               max="100000" 
+                               step="1000" 
+                               value="5000" 
+                               oninput="updateAmount()" 
+                               class="flex-grow h-1 bg-border rounded-lg appearance-none cursor-pointer slider-orange w-full">
+                        <span id="amountText" class="text-primary-orange text-lg md:text-xl font-medium w-full md:w-44 text-left md:text-right">5,000 MAD</span>
+                    </div>
+                    
+                    <div class="flex flex-col md:flex-row items-start md:items-center gap-3 md:gap-6">
+                        <input type="range" 
+                               id="duration" 
+                               min="1" 
+                               max="60" 
+                               value="9" 
+                               oninput="updateDuration()" 
+                               class="flex-grow h-1 bg-border rounded-lg appearance-none cursor-pointer slider-orange w-full">
+                        <span id="durationText" class="text-primary-orange text-lg md:text-xl font-medium w-full md:w-44 text-left md:text-right">9 Months</span>
+                    </div>
+                </div>
+                
+                <div class="flex justify-between gap-4">
+                    <button onclick="goToStep(1)" class="bg-border px-6 md:px-10 py-2.5 md:py-3 rounded-full text-white text-sm md:text-base font-medium hover:bg-secondary-background transition-colors duration-200">
+                        Back
+                    </button>
+                    <button onclick="goToStep(3)" class="bg-primary-orange px-6 md:px-10 py-2.5 md:py-3 rounded-full text-white text-sm md:text-base font-medium hover:bg-secondary-orange transition-colors duration-200">
+                        Next
+                    </button>
+                </div>
+            </div>
+
+            <div id="step3" class="step-content hidden">
+                <p class="text-gray-300 text-center text-sm md:text-base mb-6 md:mb-8">
+                    You only have this step left to find out your monthly payment
+                </p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 mb-6 md:mb-10">
+                    <div>
+                        <label class="text-gray-400 text-xs md:text-sm block mb-2">Full Name</label>
+                        <input type="text" 
+                               id="fullname" 
+                               placeholder="Enter your full name" 
+                               class="w-full bg-secondary-background border border-border rounded-full p-3 md:p-4 text-sm md:text-base text-white placeholder-gray-500 focus:outline-none focus:border-primary-orange focus:ring-2 focus:ring-primary-orange focus:ring-opacity-20 transition-all duration-200">
+                    </div>
+                    
+                    <div>
+                        <label class="text-gray-400 text-xs md:text-sm block mb-2">Email Address</label>
+                        <input type="email" 
+                               id="email" 
+                               placeholder="youremail@example.com" 
+                               class="w-full bg-secondary-background border border-border rounded-full p-3 md:p-4 text-sm md:text-base text-white placeholder-gray-500 focus:outline-none focus:border-primary-orange focus:ring-2 focus:ring-primary-orange focus:ring-opacity-20 transition-all duration-200">
+                    </div>
+                    
+                    <div>
+                        <label class="text-gray-400 text-xs md:text-sm block mb-2">Monthly Salary</label>
+                        <div class="relative">
+                            <input type="number" 
+                                   id="salary" 
+                                   placeholder="0" 
+                                   min="0" 
+                                   step="100"
+                                   class="w-full bg-secondary-background border border-border rounded-full p-3 md:p-4 pr-14 md:pr-16 text-sm md:text-base text-white placeholder-gray-500 focus:outline-none focus:border-primary-orange focus:ring-2 focus:ring-primary-orange focus:ring-opacity-20 transition-all duration-200">
+                            <span class="absolute right-4 md:right-5 top-1/2 -translate-y-1/2 text-primary-orange text-xs md:text-sm font-medium">MAD</span>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <label class="text-gray-400 text-xs md:text-sm block mb-2">Phone Number</label>
+                        <input type="tel" 
+                               id="phone" 
+                               placeholder="+212 6 00 00 00 00" 
+                               class="w-full bg-secondary-background border border-border rounded-full p-3 md:p-4 text-sm md:text-base text-white placeholder-primary-orange focus:outline-none focus:border-primary-orange focus:ring-2 focus:ring-primary-orange focus:ring-opacity-20 transition-all duration-200">
+                    </div>
+                </div>
+                
+                <div class="flex justify-between gap-4">
+                    <button onclick="goToStep(2)" class="bg-border px-6 md:px-10 py-2.5 md:py-3 rounded-full text-white text-sm md:text-base font-medium hover:bg-secondary-background transition-colors duration-200">
+                        Back
+                    </button>
+                    <button onclick="calculateLoan()" class="bg-primary-orange px-6 md:px-10 py-2.5 md:py-3 rounded-full text-white text-sm md:text-base font-medium hover:bg-secondary-orange transition-colors duration-200">
+                        Calculate
+                    </button>
+                </div>
+            </div>
+
+            <div id="step4" class="step-content hidden">
+                
+                <div id="warningMessage" class="hidden bg-red-900/20 border-2 border-red-600 rounded-2xl p-4 md:p-6 mb-6 md:mb-8">
+                    <div class="flex items-start gap-3 md:gap-4">
+                        <div class="flex-shrink-0 w-6 h-6 md:w-8 md:h-8 bg-red-600 rounded-full flex items-center justify-center mt-1 md:mt-0">
+                            <span class="text-white text-sm md:text-base font-bold">!</span>
+                        </div>
+                        <div>
+                            <h3 class="text-red-300 text-lg md:text-xl font-semibold mb-2">Loan Not Accessible</h3>
+                            <p class="text-red-200 text-sm md:text-base">
+                                The monthly payment exceeds 40% of your declared salary. 
+                                This loan is not accessible with your current income. 
+                                Please adjust the loan amount or duration.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="successSummary" class="hidden">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mb-6 md:mb-10">
+                        
+                        <div class="border-2 border-border rounded-2xl md:rounded-3xl p-6 md:p-8 bg-secondary-background">
+                            <p class="text-gray-400 text-xs md:text-sm mb-3">Monthly payment (tax included)</p>
+                            <div class="flex items-baseline gap-2 md:gap-3 mb-4">
+                                <span id="monthlyPayment" class="text-3xl md:text-5xl font-light text-white">0</span>
+                                <span class="text-2xl md:text-3xl text-primary-orange font-light">MAD</span>
+                            </div>
+                            <p class="text-sm md:text-lg text-gray-300 mb-2">
+                                Total interest: <span id="totalInterest" class="text-primary-orange font-medium">0</span> <span class="text-primary-orange">MAD</span>
+                            </p>
+                            <p class="text-sm md:text-lg text-gray-300 mb-4 md:mb-6">
+                                Total to repay: <span id="totalPayment" class="text-primary-orange font-medium">0</span> <span class="text-primary-orange">MAD</span>
+                            </p>
+                            <p class="text-xs text-gray-500 italic">
+                                *This simulation is for informational purposes only and does not constitute a binding offer.
+                            </p>
+                        </div>
+
+                        <div class="space-y-4 md:space-y-5">
+                            <div>
+                                <label class="text-gray-400 text-xs md:text-sm block mb-2">Loan Type</label>
+                                <input type="text" id="showType" readonly 
+                                       class="w-full bg-secondary-background border border-border rounded-xl p-3 md:p-4 text-sm md:text-base text-white">
+                            </div>
+                            
+                            <div>
+                                <label class="text-gray-400 text-xs md:text-sm block mb-2">Amount</label>
+                                <div class="flex items-center gap-2">
+                                    <input type="text" id="showAmount" readonly 
+                                           class="flex-grow bg-secondary-background border border-border rounded-xl p-3 md:p-4 text-sm md:text-base text-white">
+                                    <span class="text-primary-orange text-xs md:text-sm font-medium">MAD</span>
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <label class="text-gray-400 text-xs md:text-sm block mb-2">Duration</label>
+                                <div class="flex items-center gap-2">
+                                    <input type="text" id="showDuration" readonly 
+                                           class="flex-grow bg-secondary-background border border-border rounded-xl p-3 md:p-4 text-sm md:text-base text-white">
+                                    <span class="text-primary-orange text-xs md:text-sm font-medium">Months</span>
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <label class="text-gray-400 text-xs md:text-sm block mb-2">Interest Rate</label>
+                                <div class="flex items-center gap-2">
+                                    <input type="text" id="showRate" readonly 
+                                           class="flex-grow bg-secondary-background border border-border rounded-xl p-3 md:p-4 text-sm md:text-base text-white">
+                                    <span class="text-primary-orange text-xs md:text-sm font-medium">%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex justify-between gap-4">
+                    <button onclick="goToStep(3)" class="bg-border px-6 md:px-10 py-2.5 md:py-3 rounded-full text-white text-sm md:text-base font-medium hover:bg-secondary-background transition-colors duration-200">
+                        Back
+                    </button>
+                    <button onclick="resetSimulation()" class="bg-primary-orange px-6 md:px-10 py-2.5 md:py-3 rounded-full text-white text-sm md:text-base font-medium hover:bg-secondary-orange transition-colors duration-200">
+                        New Simulation
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-secondary-background border-t border-border mt-12 md:mt-20">
+        <div class="container mx-auto px-4 md:px-6 py-6 md:py-8">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+                <div class="text-center md:text-left">
+                    <h3 class="text-xl md:text-2xl font-light text-primary-orange mb-2">My BANK</h3>
+                    <p class="text-gray-400 text-xs md:text-sm">Your money, intelligently managed</p>
+                </div>
+                
+                <div class="flex flex-wrap justify-center gap-4 md:gap-8">
+                    <a href="#" class="text-gray-400 hover:text-primary-orange transition-colors text-xs md:text-sm">About Us</a>
+                    <a href="#" class="text-gray-400 hover:text-primary-orange transition-colors text-xs md:text-sm">Services</a>
+                    <a href="#" class="text-gray-400 hover:text-primary-orange transition-colors text-xs md:text-sm">Contact</a>
+                    <a href="#" class="text-gray-400 hover:text-primary-orange transition-colors text-xs md:text-sm">Privacy Policy</a>
+                    <a href="#" class="text-gray-400 hover:text-primary-orange transition-colors text-xs md:text-sm">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <style>
+        input[type="range"].slider-orange::-webkit-slider-thumb {
+            appearance: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #E78852 0%, #BE7346 100%);
+            cursor: pointer;
+            border: 3px solid #222222;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: all 0.2s ease;
+        }
+
+        @media (min-width: 768px) {
+            input[type="range"].slider-orange::-webkit-slider-thumb {
+                width: 48px;
+                height: 48px;
+            }
+        }
+
+        input[type="range"].slider-orange::-moz-range-thumb {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #E78852 0%, #BE7346 100%);
+            cursor: pointer;
+            border: 3px solid #222222;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            border: none;
+        }
+
+        @media (min-width: 768px) {
+            input[type="range"].slider-orange::-moz-range-thumb {
+                width: 48px;
+                height: 48px;
+            }
+        }
+
+        input[type="range"].slider-orange::-webkit-slider-runnable-track {
+            height: 4px;
+            background: linear-gradient(to right, #E78852 0%, #E78852 var(--value, 0%), #6A6A6A var(--value, 0%), #6A6A6A 100%);
+            border-radius: 2px;
+        }
+
+        input[type="range"].slider-orange::-moz-range-track {
+            height: 4px;
+            background: #6A6A6A;
+            border-radius: 2px;
+            border: none;
+        }
+
+        input[type="range"].slider-orange::-moz-range-progress {
+            height: 4px;
+            background: #E78852;
+            border-radius: 2px;
+            border: none;
+        }
+    </style>
+
+    <script>
+        let loanType = '';
+        let amount = 5000;
+        let duration = 9;
+        let salary = 0;
+
+        const rates = {
+            'House': 5.13,
+            'Apartment': 5.13,
+            'Land': 5.13,
+            'Business': 4.83,
+            'Personal': 6.88
+        };
+
+        function selectLoan(type) {
+            loanType = type;
+            
+            document.querySelectorAll('.loan-btn').forEach(btn => {
+                btn.classList.remove('ring-2', 'ring-primary-orange', 'bg-primary-orange/10');
+            });
+            
+            event.target.closest('.loan-btn').classList.add('ring-2', 'ring-primary-orange', 'bg-primary-orange/10');
+        }
+
+        function updateAmount() {
+            amount = parseInt(document.getElementById('amount').value);
+            
+            document.getElementById('amountText').textContent = amount.toLocaleString() + ' MAD';
+            
+            const percent = ((amount - 1000) / (100000 - 1000)) * 100;
+            document.getElementById('amount').style.setProperty('--value', percent + '%');
+        }
+
+        function updateDuration() {
+            duration = parseInt(document.getElementById('duration').value);
+            
+            document.getElementById('durationText').textContent = duration + ' Months';
+            
+            const percent = ((duration - 1) / (60 - 1)) * 100;
+            document.getElementById('duration').style.setProperty('--value', percent + '%');
+        }
+
+        function goToStep(step) {
+            if (step === 2 && !loanType) {
+                alert('Please select a loan type first');
+                return;
+            }
+
+            const steps = ['step1', 'step2', 'step3', 'step4'];
+            steps.forEach(id => {
+                document.getElementById(id).classList.add('hidden');
+            });
+            
+            document.getElementById('step' + step).classList.remove('hidden');
+
+            updateProgress(step);
+        }
+
+        function updateProgress(step) {
+            const circles = ['circle2', 'circle3', 'circle4'];
+            const circleSteps = [2, 3, 4];
+            
+            circles.forEach((id, index) => {
+                const circle = document.getElementById(id);
+                if (circleSteps[index] <= step) {
+                    circle.classList.remove('bg-border');
+                    circle.classList.add('bg-primary-orange');
+                } else {
+                    circle.classList.remove('bg-primary-orange');
+                    circle.classList.add('bg-border');
+                }
+            });
+            
+            const progressWidth = ((step - 1) / 3) * 100;
+            document.getElementById('progress').style.width = progressWidth + '%';
+        }
+
+        function calculateLoan() {
+            const name = document.getElementById('fullname').value.trim();
+            const email = document.getElementById('email').value.trim();
+            salary = parseFloat(document.getElementById('salary').value) || 0;
+            const phone = document.getElementById('phone').value.trim();
+
+            if (!name || !email || salary <= 0 || !phone) {
+                alert('Please fill in all fields correctly');
+                return;
+            }
+
+            if (!loanType) {
+                alert('Please select a loan type');
+                goToStep(1);
+                return;
+            }
+
+            const annualRate = rates[loanType];
+            const monthlyRate = annualRate / 100 / 12;
+
+            const power = Math.pow(1 + monthlyRate, duration);
+            const monthlyPayment = (amount * monthlyRate * power) / (power - 1);
+            
+            const totalPayment = monthlyPayment * duration;
+            const totalInterest = totalPayment - amount;
+
+            const maxAffordablePayment = salary * 0.40;
+
+            if (monthlyPayment > maxAffordablePayment) {
+                document.getElementById('warningMessage').classList.remove('hidden');
+                document.getElementById('successSummary').classList.add('hidden');
+            } else {
+                document.getElementById('warningMessage').classList.add('hidden');
+                document.getElementById('successSummary').classList.remove('hidden');
+                
+                document.getElementById('monthlyPayment').textContent = monthlyPayment.toFixed(2);
+                document.getElementById('totalInterest').textContent = totalInterest.toFixed(2);
+                document.getElementById('totalPayment').textContent = totalPayment.toFixed(2);
+                document.getElementById('showType').value = loanType;
+                document.getElementById('showAmount').value = amount.toLocaleString();
+                document.getElementById('showDuration').value = duration;
+                document.getElementById('showRate').value = annualRate.toFixed(2);
+            }
+
+            goToStep(4);
+        }
+
+        function resetSimulation() {
+            loanType = '';
+            amount = 5000;
+            duration = 9;
+            salary = 0;
+            
+            document.getElementById('fullname').value = '';
+            document.getElementById('email').value = '';
+            document.getElementById('salary').value = '';
+            document.getElementById('phone').value = '';
+            
+            document.getElementById('amount').value = 5000;
+            document.getElementById('duration').value = 9;
+            
+            document.querySelectorAll('.loan-btn').forEach(btn => {
+                btn.classList.remove('ring-2', 'ring-primary-orange', 'bg-primary-orange/10');
+            });
+            
+            document.getElementById('successSummary').classList.add('hidden');
+            document.getElementById('warningMessage').classList.add('hidden');
+            
+            updateAmount();
+            updateDuration();
+            goToStep(1);
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            updateAmount();
+            updateDuration();
+            
+            const inputs = document.querySelectorAll('input');
+            inputs.forEach(input => {
+                input.addEventListener('focus', function() {
+                    this.parentElement.classList.add('ring-2', 'ring-primary-orange', 'ring-opacity-20');
+                });
+                
+                input.addEventListener('blur', function() {
+                    this.parentElement.classList.remove('ring-2', 'ring-primary-orange', 'ring-opacity-20');
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
