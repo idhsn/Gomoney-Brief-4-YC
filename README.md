@@ -105,3 +105,52 @@ The app guides users through selecting a loan type, entering amount, duration, a
 - Enhancements: Input masks, currency formatting, and downloadable PDF summaries.[^6]
 
 ***
+
+Notes on badges
+
+- Customize Shields.io badges for tech, status, and license; update labels and colors to match your branding.[^1]
+- For inspiration or quick copy-paste, explore popular README badge collections and styles.[^2]
+<span style="display:none">[^14][^15][^16][^17][^18][^19][^20]</span>
+
+<div align="center">⁂</div>
+
+[^1]: https://peateasea.de/adding-shields-io-badges-to-github-profile/
+
+[^2]: https://github.com/alexandresanlim/Badges4-README.md-Profile
+
+[^3]: https://www.jessym.com/articles/deriving-the-mortgage-payment-formula
+
+[^4]: https://math.libretexts.org/Bookshelves/Applied_Mathematics/Applied_Finite_Mathematics_(Sekhon_and_Bloom)/06:_Mathematics_of_Finance/6.04:_Present_Value_of_an_Annuity_and_Installment_Payment
+
+[^5]: https://www.townebank.com/personal/resource/credit/trouble/debt-to-income/
+
+[^6]: https://www.wellsfargo.com/goals-credit/smarter-credit/credit-101/debt-to-income-ratio/dti-faqs/
+
+[^7]: https://github.com/inttter/md-badges
+
+[^8]: https://www.youtube.com/watch?v=4cgpu9L2AE8
+
+[^9]: https://courses.lumenlearning.com/coloradomesa-mathforliberalartscorequisite/chapter/annuities-and-loans/
+
+[^10]: https://ecampusontario.pressbooks.pub/financemath/chapter/3-9-pmt-of-annuities-formula-approach/
+
+[^11]: https://www.axisbank.com/progress-with-us-articles/loans/personal-loan/debt-to-income-ratio
+
+[^12]: https://github.com/henriquesebastiao/badges
+
+[^13]: https://www.munich-business-school.de/en/l/business-studies-dictionary/financial-knowledge/annuity
+
+[^14]: https://www.investopedia.com/retirement/calculating-present-and-future-value-of-annuities/
+
+[^15]: https://learning.treasurers.org/resources/how-to-calculate-loan-instalments-with-annuity-factors
+
+[^16]: https://studyfinance.com/annuity-payment/
+
+[^17]: https://www.investopedia.com/terms/p/present-value-annuity.asp
+
+[^18]: https://www.lendingclub.com/resource-center/personal-loan/what-is-debt-to-income-ratio-how-to-improve-it
+
+[^19]: https://www.experian.com/blogs/ask-experian/credit-education/debt-to-income-ratio/
+
+[^20]: https://www.usbank.com/financialiq/manage-your-household/home-ownership/what-is-debt-to-income-ratio.html
+
